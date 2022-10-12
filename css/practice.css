@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(54, 52, 52);
+}
+.king{
+    width: 400px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 3px solid rgb(230, 92, 13);
+}
+h1{
+    background-color: white;
+    padding: 2px;
+    text-transform: uppercase;
+}
+.king2{
+    padding: 30px;
+    background-color: rgb(84, 107, 240);
+}
+.icon{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+label{
+    font-size: 22px;
+    color: white;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    transition: 0.5s;
+}
+input:focus:hover{
+    background-color: burlywood;
+    transform: scale(1.03);
+}
+label,input{
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.submit,.cancel{
+    padding: 7px 15px;
+    border: 2px solid rgb(239, 243, 30);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: -5px 10px 10px 10px;
+    transition: 0.3s;
+}
+.submit:hover,.cancel:hover{
+    transform: scale(1.05);
+    color: black;
+}
+.submit{
+    color: rgb(255, 255, 255);
+    background-color:rgb(30, 255, 0);
+}
+.cancel{
+    color: rgb(255, 255, 255);
+    background-color:rgb(255, 0, 0);
+}
+.create{
+    padding: 7px 15px;
+    border: 1px solid rgb(201, 25, 218);
+    background-color: slateblue;
+    color: white;
+    margin: 10px;
+    transition: 0.3s;
+}
+.find{
+    padding: 7px 21px;
+    border: 1px solid rgb(12, 193, 248);
+    background-color: rgb(18, 144, 117);
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.create:hover,.find:hover{
+    transform: scale(1.05);
+    color: black;
+}
+h2{
+    text-transform: uppercase;
+    color: white;
+}

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            *
+            {
+                box-sizing: border-box;
+            }
+           .kk
+           {
+               display: flex;
+               font-size: 30px;
+               text-align: center;
+            flex-direction:row ;
+           }
+           .aa
+           {
+      flex: 50%;
+               background-color: cadetblue;
+               padding: 20px;
+
+           }
+           .bb
+           {
+            flex: 50%;
+               background-color: rgb(175, 206, 206);
+               padding: 20px;
+           }
+           @media(max-width:800px)
+           {
+           .kk
+               {
+                   flex-direction: column;
+               }
+           }
+        </style>
+    </head>
+    <body>
+        <h1>Responisve Flexbox</h1>
+
+<p>The "flex-direction: row;" stacks the flex items horizontally 
+    (from left to right).</p>
+<p>The "flex-direction: column;" stacks the flex items vertically 
+    (from top to bottom).</p>
+<p><b>Resize the browser window to see that the direction changes
+     when the 
+screen size is 800px wide or smaller.</b></p>
+
+<div class="kk">
+  <div class="aa">1</div>
+  <div class="bb">2</div>
+</div>
+    </body>
+</html>

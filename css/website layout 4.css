@@ -1,0 +1,112 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    background-color: #ddd;
+}
+.f1
+{ 
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.f2
+{
+    background-color: black;
+    overflow: hidden;
+}
+a{
+    padding: 10px;
+    text-align: center;
+}
+.aa
+{   
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+.bb
+{
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: black;
+    background-color: blanchedalmond;
+}
+.second
+{  
+ padding: 10px;
+ content: "";
+ display: table;
+ clear: both;
+}
+.s11
+{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.s12
+{
+    background-color: white;
+    padding: 10px;
+ 
+}
+.s3
+{
+    background-color: white;
+    padding: 10px;
+   margin-bottom: 10px;
+}
+.secondpro
+{
+    width:80%;
+    padding-right: 10px;
+}
+.secondpro1
+{
+    width: 20%;  
+}
+.sp
+{
+    float: left;
+}
+.thirt
+{
+    background-color: #bbb;
+    text-align: center;
+    padding: 8px;
+}
+.s2
+{
+   width:100%;
+   height: 130px;
+   background-color: #aaa;
+   padding: 15px;
+}
+.s5
+{
+    width: 100%;
+    height:80px;
+    background-color: #aaa;
+    padding: 10px;
+}
+.s4
+{
+   padding: 20px;
+}
+.s6
+{
+    background-color: #aaa;
+}
+@media screen and (max-width:700px){
+  a,.secondpro,.secondpro1{
+        width: 100%;
+    }
+}

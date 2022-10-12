@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(66, 65, 65);
+}
+.king{
+    width: 400px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid coral;
+}
+ h1{
+     display: block;
+     margin: 0 ;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+}
+.tbody{
+    background-color: cornflowerblue;
+    padding: 20px 30px;
+    text-align: center;
+}
+label{
+    color: white;
+    font-size:22.85px;
+    text-transform: uppercase;
+}
+input{
+    width:330px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+}
+.lainput{
+    margin: 15px 0;
+}
+.icon{
+    font-size:40px;
+}
+.submit{
+    background-color: rgb(230, 177, 33);
+    color: white;
+    padding: 7px 20px;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 10px;
+}
+.cancel{
+    background-color: rgb(235, 124, 188);
+    color: white;
+    padding: 7px 20px;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.create{
+    text-transform: uppercase;
+    padding: 8px;
+    background-color: yellowgreen;
+    color: white;
+    border: 1px solid white;
+}
+.find{
+    text-transform: uppercase;
+    padding: 8px 16px;
+    background-color: rgb(36, 192, 231);
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+h2{
+    text-transform: uppercase;
+    color: white;
+}

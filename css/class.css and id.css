@@ -1,0 +1,25 @@
+.kk
+{
+    color: blue;
+    font-size: 70px;
+    text-align: center; 
+}
+.ps
+{
+    color: green;
+    font-size: 70px;
+    text-align: center;
+}
+
+#kk
+{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
+#ps
+{
+    color: yellow;
+    font-size: 80px;
+    text-align: center;
+}

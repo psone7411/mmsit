@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS3 - Demo</title>
+	<style>
+		.wrap {
+			font-family: arial;
+			position: relative;
+			margin-bottom: 30px;
+			height: 130px;
+		}
+		
+		.wrap div {
+			width: 200px;
+			height: 60px;
+			line-height: 60px;
+			color: #fff;
+			font-weight: bold;
+			text-align: center;
+		
+		}
+		
+		.box-one {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #555;
+		}
+		
+		.box-two {
+			position: absolute;
+			top: 70px;
+			left: 100px;
+			background: #555;
+		}
+		
+		.demo {
+			position:absolute;
+			top: 20px;
+			left: 50px;
+			background: #752d93;
+		}
+		
+		#rgba {
+			background: rgba(142, 68, 173, 0.8);
+		}
+		
+		#border-radius {
+			border-radius: 20px;
+		}
+		
+		#linear-gradient {
+			background: linear-gradient(top, #b37ec9, #752d93);
+			background: -moz-linear-gradient(top, #b37ec9, #752d93);
+			background: -webkit-linear-gradient(top, #b37ec9, #752d93);
+		}
+		
+		#text-shadow {
+			text-shadow: 2px 2px 1px #222;
+		}
+		
+		#box-shadow {
+			box-shadow: 3px 3px 4px #555;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="box-one"></div>
+		<div class="box-two"></div>
+		<div class="demo" id="rgba">RGBA Demo</div>
+	</div>
+	
+	<div class="wrap">
+		<div class="box-one"></div>
+		<div class="box-two"></div>
+		<div class="demo" id="border-radius">Border Radius</div>
+	</div>
+	
+	<div class="wrap">
+		<div class="box-one"></div>
+		<div class="box-two"></div>
+		<div class="demo" id="linear-gradient">Linear Gradient</div>
+	</div>
+	
+	<div class="wrap">
+		<div class="box-one"></div>
+		<div class="box-two"></div>
+		<div class="demo" id="text-shadow">Text Shadow</div>
+	</div>
+	
+	<div class="wrap">
+		<div class="box-one"></div>
+		<div class="box-two"></div>
+		<div class="demo" id="box-shadow">Box Shadow</div>
+	</div>
+</body>
+</html>

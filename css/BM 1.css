@@ -1,0 +1,56 @@
+.f1
+{
+ background-color: brown;
+ 
+ 
+}
+
+.aa
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    margin-right: 230px;
+}
+.bb
+{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.bb:hover
+{
+    border-bottom-style: solid;
+}
+.kk
+{
+    width: 110px;
+}
+.f2
+{
+ width: 60%;
+ text-align: center;
+ margin-top: 80px;
+ background-color: burlywood;
+ margin-left: 20%;
+}
+.cc
+{
+    font-size: 45px;
+}
+.dd
+{
+    font-size: 17px;
+   margin-left:30px;
+   margin-bottom: 50px;
+}
+.ee
+{
+   margin-right: 170px;
+   background-color: chartreuse;
+  
+}

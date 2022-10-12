@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.king{
+    margin:20px auto ;
+    max-width: 1024px;
+    padding: 22px;   
+    border: 5px solid #aaa;
+}
+.f1{
+    float: right;
+    color: #2980B9;
+    padding-top: 45px;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px dotted #3498DB;
+}
+.f1:hover{
+    color: #3498DB;
+    border-bottom: 1px solid #2980B9;
+}
+.kk{
+   float: left;
+}
+.ps{
+    overflow: hidden;
+}
+  
+.logo{
+    font-size: 80px;
+    color: red;
+    width: 9%;
+}
+.h1h2{
+    padding-top:28px;
+    width:66% ;
+}
+h1{
+    margin: 0;
+    font-weight: normal;
+    font-size: 28px;
+    color: #555;
+}
+h2{
+    font-weight: normal;
+    font-size: 14px;
+    color: #aaa;
+    margin: 0;
+}
+ul{
+    margin: 10px none;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: red;
+}
+ul li{
+    float: left; 
+    border:0 none;
+}
+li:hover{
+    background-color:rgb(138, 102, 102) ;
+}
+ul li a{
+    line-height: 43px;
+    text-decoration: none;
+    padding: 48px;
+    color: white;
+    font-size: 18px;
+}
+.gg{
+  overflow: hidden;
+}
+.lk{
+    float: left;
+    margin: 7px 8px;
+    width: 216px;
+    height:120px;
+    background-color:#34495E;
+    margin-bottom: 15px;
+}
+.lass{
+    text-align: center;
+    padding: 1px;
+    font-size: 15px;
+}
+@media screen and (max-width:950px) {
+    .king{
+       width: 590px;
+    }
+    .kk{
+        margin-right: 30px;
+    }
+    .f1{           
+           display: block;
+            float: none;
+            text-align: center;         
+            padding: 2px;
+          }
+    .hh,.bb{
+        background-color: red;
+       float: left;
+       width: 33.1%;
+       text-align: center;
+    }
+    nav{
+        background-color: transparent;
+      }
+    .hh{
+    }
+    .lk{
+        width: 47%;
+    }
+}
